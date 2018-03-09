@@ -11,7 +11,7 @@ extern "C" {
 #define panic() abort()
 #endif 
 
-#define ESP.wdtFeed()
+#define wdtFeed() getFreeHeap()
 
 #else
 

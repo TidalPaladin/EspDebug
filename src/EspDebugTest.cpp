@@ -26,4 +26,5 @@ void loop() {
     ESP_LOGE("main","x: %i", x); 
     digitalWrite(LED_BUILTIN, !digitalRead(LED_BUILTIN));
     delay(1000);
+    ESP.wdtFeed();
 }  
