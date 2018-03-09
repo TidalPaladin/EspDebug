@@ -1,0 +1,28 @@
+Info : ftdi: if you experience problems at higher adapter clocks, try the command "ftdi_tdo_sample_edge falling"
+Info : clock speed 20000 kHz
+Info : JTAG tap: esp32.cpu0 tap/device found: 0x120034e5 (mfg: 0x272 (Tensilica), part: 0x2003, ver: 0x1)
+Info : JTAG tap: esp32.cpu1 tap/device found: 0x120034e5 (mfg: 0x272 (Tensilica), part: 0x2003, ver: 0x1)
+Info : esp32: Debug controller was reset (pwrstat=0x5F, after clear 0x0F).
+Info : esp32: Core was reset (pwrstat=0x5F, after clear 0x0F).
+Info : accepting 'gdb' connection from pipe
+Info : Target halted. PRO_CPU: PC=0x400D3E52 (active)    APP_CPU: PC=0x00000000 
+esp32: target state: halted
+Info : Use core0 of target 'esp32'
+Info : Target halted. PRO_CPU: PC=0x40091D07 (active)    APP_CPU: PC=0x400D3E52 
+Info : Auto-detected flash size 4096 KB
+Info : Using flash size 4096 KB
+Info : Set current thread to 0x00000000, old= 0x00000000
+Info : JTAG tap: esp32.cpu0 tap/device found: 0x120034e5 (mfg: 0x272 (Tensilica), part: 0x2003, ver: 0x1)
+Info : JTAG tap: esp32.cpu1 tap/device found: 0x120034e5 (mfg: 0x272 (Tensilica), part: 0x2003, ver: 0x1)
+Info : esp32: Debug controller was reset (pwrstat=0x5F, after clear 0x0F).
+Info : esp32: Core was reset (pwrstat=0x5F, after clear 0x0F).
+Info : Target halted. PRO_CPU: PC=0x5000004B (active)    APP_CPU: PC=0x00000000 
+esp32: target state: halted
+Info : esp32: Core was reset (pwrstat=0x1F, after clear 0x0F).
+Info : Target halted. PRO_CPU: PC=0x40000400 (active)    APP_CPU: PC=0x40000400 
+esp32: target state: halted
+Info : Target halted. PRO_CPU: PC=0x400D2C52             APP_CPU: PC=0x400D0989 (active)
+Info : Target halted. PRO_CPU: PC=0x400D3E52             APP_CPU: PC=0x400D0A06 (active)
+Info : Target halted. PRO_CPU: PC=0x400D3E52             APP_CPU: PC=0x400D0A08 (active)
+Info : Target halted. PRO_CPU: PC=0x400D3E52             APP_CPU: PC=0x400D0A06 (active)
+Info : dropped 'gdb' connection

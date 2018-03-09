@@ -7,8 +7,9 @@ extern "C" {
     #include "esp_log.h"
     #include "esp_err.h"
 }
-#ifndef panic()
-#define panic() abort()
+
+#ifdef ESP32
+#define panic() (abort())
 #endif 
 
 #define wdtFeed() getFreeHeap()
